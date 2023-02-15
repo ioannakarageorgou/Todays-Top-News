@@ -22,8 +22,8 @@ class ViewController: UIViewController {
         
         newsTableView.delegate = self
         newsTableView.dataSource = self
-//        newsTableView.isAccessibilityElement = true
-//        newsTableView.accessibilityIdentifier = "NewsTableView"
+        newsTableView.isAccessibilityElement = true
+        newsTableView.accessibilityIdentifier = "NewsTableView"
         newsListViewModel.fetchAllNews()
     }
 
