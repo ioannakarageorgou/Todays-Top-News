@@ -28,7 +28,6 @@ class HttpClient {
                 completion(.failure(.badResponse))
                 return
             }
-            print("response: \(response)")
             
             guard let data =  data, error == nil else {
                 completion(.failure(.badResponse))

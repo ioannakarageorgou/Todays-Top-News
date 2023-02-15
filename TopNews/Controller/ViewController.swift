@@ -19,6 +19,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         self.title = "Today's Top News"
+        
+        newsTableView.delegate = self
+        newsTableView.dataSource = self
 //        newsTableView.isAccessibilityElement = true
 //        newsTableView.accessibilityIdentifier = "NewsTableView"
         newsListViewModel.fetchAllNews()
