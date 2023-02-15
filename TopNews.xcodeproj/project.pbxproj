@@ -27,6 +27,7 @@
 		EAAF9B14299D03A20078CCC5 /* NewsNetworkManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAF9B13299D03A20078CCC5 /* NewsNetworkManagerTest.swift */; };
 		EAAF9B15299D097D0078CCC5 /* EmptyResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = EAAF9B0F299D03600078CCC5 /* EmptyResponse.json */; };
 		EAAF9B16299D09820078CCC5 /* TopNews.json in Resources */ = {isa = PBXBuildFile; fileRef = EAAF9B10299D03600078CCC5 /* TopNews.json */; };
+		EAAF9B18299D1F840078CCC5 /* NewsListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAF9B17299D1F840078CCC5 /* NewsListViewModelTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		EAAF9B0F299D03600078CCC5 /* EmptyResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EmptyResponse.json; sourceTree = "<group>"; };
 		EAAF9B10299D03600078CCC5 /* TopNews.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TopNews.json; sourceTree = "<group>"; };
 		EAAF9B13299D03A20078CCC5 /* NewsNetworkManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsNetworkManagerTest.swift; sourceTree = "<group>"; };
+		EAAF9B17299D1F840078CCC5 /* NewsListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewModelTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 				EAAF9B0E299D034C0078CCC5 /* MockData */,
 				EAAF9B0C299D023A0078CCC5 /* TestNewsNetworkManager.swift */,
 				EAAF9B13299D03A20078CCC5 /* NewsNetworkManagerTest.swift */,
+				EAAF9B17299D1F840078CCC5 /* NewsListViewModelTest.swift */,
 			);
 			path = TopNewsTests;
 			sourceTree = "<group>";
@@ -376,6 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAAF9B14299D03A20078CCC5 /* NewsNetworkManagerTest.swift in Sources */,
+				EAAF9B18299D1F840078CCC5 /* NewsListViewModelTest.swift in Sources */,
 				EAAF9B0D299D023A0078CCC5 /* TestNewsNetworkManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
